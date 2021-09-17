@@ -14,6 +14,7 @@
         <!-- Site navigation menu-->
         <nav id="utilitymenu">
             <ul>
+                <!-- each utilitymenu_item links navigate to the correspond service <article> lower on page-->
                 <li class="utilitymenu_item">
                     <a href="#search-engine-optimization" class="utilitymenu_link">Search Engine Optimization</a>
                 </li>
@@ -26,11 +27,12 @@
             </ul>
         </nav>
     </header>
-    <!-- Large hero image, in corresponding css-->
+    <!-- Large hero image, image linked via corresponding stylesheet-->
     <section id="hero"></section>
     <main>
         <!-- Core content, list of services offered by Horiseon-->
         <section id="services">
+            <!-- Each service is an <article> as it operates as a self-contained unit-->
             <article class="service" id="search-engine-optimization">
                 <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Notebook listing focal points for a strong SEO strategy: Content, Headings, Mobile Compatibility, Social Media, Link Building, Backlinking"/>
                 <h2>Search Engine Optimization</h2>
@@ -53,6 +55,7 @@
                 </p>
             </article>
         </section>
+        <!-- While not the core goal of the page, this aside is an aggregation of the benefits of using Horiseon's services detailed elsewhere on this page-->
         <aside id="benefits">
             <section class="benefit">
                 <h3>Lead Generation</h3>
@@ -78,8 +81,8 @@
         </aside>
     </main>
     <footer>
-        <h4>Made with ❤️️ by Horiseon</h4>
         <!-- Changed this heading from h3 to h4 to better sequence headings and because the text is not the equivalent level of importants at previous h3 use on the page.-->
+        <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
