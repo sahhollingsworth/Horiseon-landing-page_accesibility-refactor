@@ -3,7 +3,7 @@
 This project was a refactor of the Horiseon marketing agency landing page to ensure accessibility, better accomodate assisstive technology, and improve discoverability of their services by improving SEO.
 
 ## Deployed site
-[Click here to link to the refactored Horiseon landing page.](https://sahhollingsworth.github.io/Horiseon-landing-page_accesibility-refactor "Horiseon landing page")
+[Click here to visit the refactored Horiseon landing page.](https://sahhollingsworth.github.io/Horiseon-landing-page_accesibility-refactor "Horiseon landing page")
 
 ![Image](./assets/images/horiseon-landing-page_readme.png "Horiseon landing page screenshot")
 
@@ -13,13 +13,13 @@ This project was a refactor of the Horiseon marketing agency landing page to ens
 * Added concise title to improve SEO and tab/window visibility in browser.
 * Added favicon to improve tab/window visibility in browser.
 * Restructure the HTML and replaced generic HTML elements with semantic html elements to improve accessibility, SEO, and code readability.
-  * Header, Nav, Section, Article, Aside, Footer.
+  * Header, Nav, Section, Article, Aside, Footer
 * Updated use of headings to reflect sequential order best practices.
 * Applied more thematic id's and classes reflective of corresponding element's pupose to simplify the code and improve readability.
 * Applied more contextual comments to improve code readability and provide clarity on developer choices.
 * Optimized CSS structure, leveraging the new id's and classes to reduce deuplicative CSS, to improve load time, simplify the code, and improve readability.
 
-## Technologies Used
+## Built with
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - Used to create elements on the DOM
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Used to style html elements on the page
