@@ -3,13 +3,21 @@
 This project was a refactor of the Horiseon marketing agency landing page to ensure accessibility, better accomodate assisstive technology, and improve discoverability of their services by improving SEO.
 
 ## Deployed site
-[Click here to go to the refactored site.](https://sahhollingsworth.github.io/code-refactor_hw1-9-16-/ "Horiseon landing page")
+[Click here to link to the refactored Horiseon landing page.](https://sahhollingsworth.github.io/code-refactor_hw1-9-16-/ "Horiseon landing page")
 
 ![Image](./assets/images/horiseon-landing-page_readme.png "Horiseon landing page screenshot")
 
 ## Summary
 
-stay tuned
+** Added alt attributes to all images.
+** Added concise title to improve SEO and tab/window visibility in browser.
+** Added favicon to improve tab/window visibility in browser.
+** Restructure the HTML and replaced generic HTML elements with semantic html elements to improve accessibility, SEO, and code readability.
+*** Header, Nav, Section, Article, Aside, Footer.
+** Updated use of headings to reflect sequential order best practices.
+** Applied more thematic id's and classes reflective of corresponding element's pupose to simplify the code and improve readability.
+** Applied more contextual comments to improve code readability and provide clarity on developer choices.
+** Optimized CSS structure, leveraging the new id's and classes to reduce deuplicative CSS, to improve load time, simplify the code, and improve readability.
 
 ## Technologies Used
 
@@ -28,7 +36,7 @@ Sarah Hollingsworth
 
 ## Acknowledgments
 
-Several articles extensively breakingdown of the semantic HTML elements <section> <article> <aside>, as follows:
+Several articles extensively breakingdown semantic HTML element use and best practices as follows:
 ** Adam Wood - [HTML5 Aside Element: Here Are The Good And Not So Good Uses For It](https://html.com/tags/aside/)
 ** @/vkash8574 - [How to create an HTML document which uses aside element ?](https://www.geeksforgeeks.org/how-to-create-an-html-document-which-uses-aside-element/)
 ** Daniel Tonon - [How to Section Your HTML](https://css-tricks.com/how-to-section-your-html/)
@@ -37,35 +45,4 @@ Several articles extensively breakingdown of the semantic HTML elements <section
 ** Jon Penland - [What On Earth Is Semantic Markup? And Why Should You Learn To Write It](https://html.com/semantic-markup/)
 ** MDN WebDocs - [<aside>: The Aside element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside)
 ** the team at Super Developer Resources - [Learn When to Use Section, Article, Nav & Aside in HTML5 Websites](https://superdevresources.com/section-article-nav-aside-html5/)
-
-
-
-
-------
-
-
-## Summary 
-This application contains a list of zoo animals!
-
-## Code Snippet
-```html
-<h1>Zoo</h1>
-    <img src="https://ichef.bbci.co.uk/childrens-responsive-ichef-live/r/720/1x/cbbc/the_zoo_who_are_you_quiz_index_new.jpg" alt="zoo">
-    <ul>
-        <li>Lion</li>
-        <li>Elephant</li>
-        <li>Seal</li>
-        <li>Buffalo</li>
-        <li>Giraffe</li>
-        <li>Penguin</li>
-        <li>Turtle</li>
-        <li>Whale</li>
-    </ul>
-```
-
-```html
-<html>
-
-</html>
-```
 
