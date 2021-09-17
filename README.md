@@ -13,7 +13,7 @@ This project was a refactor of the Horiseon marketing agency landing page to ens
 * Added concise title to improve SEO and tab/window visibility in browser.
 * Added favicon to improve tab/window visibility in browser.
 * Restructure the HTML and replaced generic HTML elements with semantic html elements to improve accessibility, SEO, and code readability.
-** Header, Nav, Section, Article, Aside, Footer.
+  * Header, Nav, Section, Article, Aside, Footer.
 * Updated use of headings to reflect sequential order best practices.
 * Applied more thematic id's and classes reflective of corresponding element's pupose to simplify the code and improve readability.
 * Applied more contextual comments to improve code readability and provide clarity on developer choices.
@@ -38,7 +38,7 @@ Sarah Hollingsworth
 
 Several articles extensively breakingdown semantic HTML element use and best practices as follows:
 * Adam Wood - [HTML5 Aside Element: Here Are The Good And Not So Good Uses For It](https://html.com/tags/aside/)
-* @/vkash8574 - [How to create an HTML document which uses aside element ?](https://www.geeksforgeeks.org/how-to-create-an-html-document-which-uses-aside-element/)
+* vkash8574 - [How to create an HTML document which uses aside element ?](https://www.geeksforgeeks.org/how-to-create-an-html-document-which-uses-aside-element/)
 * Daniel Tonon - [How to Section Your HTML](https://css-tricks.com/how-to-section-your-html/)
 * Mike Robinson - [Understanding aside](http://html5doctor.com/understanding-aside/0)
 * Alan Morel - [Semantic Tags: Article, Section, and Aside](https://sabe.io/classes/html/article-section-aside)
