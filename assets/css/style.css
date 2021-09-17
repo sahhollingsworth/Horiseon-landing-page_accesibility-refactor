@@ -1,128 +1,135 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color:#d9dcd6;
 }
 
-/* Header Stylization */
+p {
+    font-size:16px;
+}
+
+/* Header Styling */
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#2a607c;
+    color:#ffffff;
 }
 
 header h1 {
-    display: inline-block;
-    font-size: 48px;
+    display:inline-block;
+    font-size:48px;
 }
 
 #seo {
-    color: #d9dcd6;
+    color:#d9dcd6;
 }
 
+/* <Nav> = utilitymenu, styling */
 #utilitymenu {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    padding-top:15px;
+    margin-right:20px;
+    float:right;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
 }
 
 .utilitymenu_item {
-    display: inline-block;
-    margin-left: 25px;
+    display:inline-block;
+    margin-left:25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
+.utilitymenu_link {
+    color:#ffffff;
+    text-decoration:none;
 }
+/* Given most landing pages site navigation/linking in the header and/or footer of the page, the styling of thesse <nav><a> elements will likely be distinctly different than <a> elements used elsewhere on the page. <a> elements in <nav> now have their own class .utilitymenu_link to simplify future <a> elements added to page or nav */
 
-/*Section id="hero"*/
+/* Hero section styling*/
 #hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    height:800px;
+    width:100%;
+    margin-bottom:25px;
+    background-image:url("../images/digital-marketing-meeting.jpg");
+    background-size:cover;
+    background-position:center;
 }
 
-/* Services section stylization */
+/* Services section styling */
 #services {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
+    width:75%;
+    display:inline-block;
+    margin-left:20px;
 }
 .service {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-.service img {
-    max-height: 200px;
+    margin-bottom:20px;
+    padding:50px;
+    height:300px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#0072bb;
+    color:#ffffff;
 }
 
 .service h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    margin-bottom:20px;
+    font-size:36px;
 }
 
+/*Service section image styling*/
+.service img {
+    max-height:200px;
+}
 
-/* Right vertical panel */
+.float-left {
+    float:left;
+    margin-right:25px;
+}
+
+.float-right {
+    float:right;
+    margin-left:25px;
+}
+
+/* Benefits aside panel styling */
 #benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    margin-right:20px;
+    padding:20px;
+    clear:both;
+    float:right;
+    width:20%;
+    height:100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#2589bd;
 }
 
 .benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
+    margin-bottom:32px;
+    color:#ffffff;
 }
 
 .benefit h3 {
-    margin-bottom: 10px;
-    text-align: center;
+    margin-bottom:10px;
+    text-align:center;
 }
 
 .benefit img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    display:block;
+    margin:10px auto;
+    max-width:150px;
 }
 
-/* Footer stylization */
+/* Footer styling */
 footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    padding:30px;
+    clear:both;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
 }
 
-footer h2 {
-    font-size: 20px;
+footer h4 {
+    font-size:20px;
 }
